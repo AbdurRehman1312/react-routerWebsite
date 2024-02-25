@@ -72,7 +72,16 @@ export default function Header() {
                                     Github
                                 </NavLink>
                             </li>
-                            
+                            <li>
+                                <NavLink
+                                to="/linkedin"
+                                    className={({isActive}) =>
+                                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-green-900 font-bold" : "text-green-700"} border-b border-green-100 hover:bg-green-50 lg:hover:bg-transparent lg:border-0 hover:text-green-700 lg:p-0`
+                                    }
+                                >
+                                    LinkedIn
+                                </NavLink>
+                            </li>
                         </ul>
                     </div>
                 </div>
