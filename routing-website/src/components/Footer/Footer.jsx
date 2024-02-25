@@ -9,8 +9,8 @@ export default function Footer() {
                     <div className="mb-6 md:mb-0">
                         <Link to="/" className="flex items-center">
                             <img
-                                src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
-                                className="mr-3 h-16"
+                                src="https://dynamic.brandcrowd.com/asset/logo/05d68026-8e12-4b86-bfe0-c32c58c52109/logo-search-grid-1x?logoTemplateVersion=1&v=638097751070370000"
+                                className="mr-3 w-48 h-36"
                                 alt="Logo"
                             />
                         </Link>
